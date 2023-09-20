@@ -1,0 +1,27 @@
+﻿body {
+}
+
+
+.navbar-brand{
+    font-family:Verdana;
+    font-size:2em;
+    font-weight:bold;
+}
+
+.navbar #myMenu ul li a{
+    color:white;
+}
+
+.navbar #myMenu ul li a:hover{
+    color:pink;
+}
+
+.backimage
+{
+    background-image:url(images/Banner.jpeg);
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    min-height:70vh;
+    margin-top: 74px;
+}

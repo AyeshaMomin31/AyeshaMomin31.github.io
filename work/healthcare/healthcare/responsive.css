@@ -1,0 +1,66 @@
+﻿@media only screen and (max-width: 1000px) {
+     .menubar{
+     width:100%;
+      background-color: #083791;
+      
+   }
+    .lbl {
+        display: block;
+    }
+
+    .menubar ul  {
+        display:none;
+        width:100%;
+        padding:40px;
+    }
+
+    #chk1:checked + .menubar ul {
+        display: block;
+        width: 100%;
+        /*right: 70px*/
+    }
+   
+    .menubar li {
+        width: 100%;
+        display: block;
+        float: none;
+       
+       
+    }
+   .menubar ul li a{
+       color:white;
+       text-align:center;
+   }
+   
+
+   .slider{
+       height:500px;
+       background-size:cover;
+   }
+}
+@media only screen and (max-width: 1160px) {
+    .slider {
+        /*background-size: contain;*/
+        /*height: auto;*/
+      
+    }
+    .content{
+        /*padding-top:0px;*/
+    }
+}
+@media only screen and (max-width: 700px)  {
+    .content h1 , .content h1 span{
+        font-size:30px;
+    }
+    .content p{
+        font-size:14px;
+    }
+}
+
+@media only screen and (max-width:850px){
+    .content h1 {
+    font-weight: 200;
+    color: white;
+    font-size: 32px;
+}
+}

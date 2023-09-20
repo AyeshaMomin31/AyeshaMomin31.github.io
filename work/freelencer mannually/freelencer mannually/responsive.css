@@ -1,0 +1,118 @@
+﻿@media only screen and (max-width:1220px) {
+    .location {
+        margin-left: 0px;
+    }
+
+    .footer {
+        display: block;
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+    .portfolio h1 {
+        font-size: 40pt;
+    }
+}
+
+@media only screen and (max-width: 1020px) {
+    .location {
+        display: block;
+        float: none;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .footer {
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+
+    .location h3 {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+
+.sucess {
+        display: inline-block;
+        float: none;
+        width: 100%;
+}
+
+.up {
+        display: inline-block;
+}
+
+.imgbox {
+        float: none;
+        display: inline-block;
+        width: 50%;
+}
+
+
+.toggleMenu {
+        display: inline-block;
+}
+
+.menu ul li {
+        float: none;
+}
+
+.menu ul li:first-child {
+            margin: 0;
+}
+
+.menu {
+        background-repeat: repeat-x;
+        background-color: #18bc9c;
+        float: none;
+        margin-top: 50px;
+}
+.menu a:hover {
+            color: #2c3e50;
+}
+
+.menu ul {
+            display: none;
+            padding: 30px 0;
+}
+
+#chk1:checked + ul {
+        display: block;
+}
+
+.rightrow {
+        float: none;
+        display: block;
+        width: 100%;
+}
+
+.leftrow {
+        float: none;
+        display: block;
+        width: 100%;
+        margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+.portfolio h1 {
+        font-size: 20pt;
+}
+
+.portfolio h2 {
+        font-size: 13pt;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 540px) {
+    .toggleMenu {
+        right: -50px;
+        top: 10px;
+    }
+}

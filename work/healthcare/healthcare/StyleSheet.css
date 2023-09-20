@@ -1,0 +1,446 @@
+﻿body {
+    font-family: 'Barlow', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.img {
+    width: 100%;
+    display: block;
+}
+ul, ol {
+    list-style: none;
+}
+
+.clear:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+/*header start*/
+.header-right span{
+        color: white;
+        font-size:14px;
+}
+.header-right {
+    float: right;
+   
+}
+
+.headerback {
+    /*height: 45px;*/
+    padding: 10px 0;
+    background-color: #083791;
+    display: flex;
+}
+
+.headerleft p {
+    display: inline-block;
+    margin-right: 23px;
+    font-size: 15px;
+    color: #fcfeff;
+    letter-spacing: 1px;
+}
+
+/*header end*/
+
+/*NAVBAR START*/
+
+/*menu res*/
+
+
+
+.lbl {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    background-color: transparent;
+    color: #083791;
+    line-height: 40px;
+    text-align: center;
+    top: 12px;
+    right: 50px;
+    display: none;
+}
+
+#chk1 {
+    display: none;
+}
+
+/*menu res*/
+.navbar{
+    padding:12px 0px;
+}
+.menubar ul {
+    float: right;
+     list-style:none;
+   
+}
+.travel i{
+    font-size: 42px;
+    color: #083791;
+    margin-top:12px;
+}
+.menubar ul li{
+    float:left;
+    padding:20px 25px;
+    font-weight:700;
+     font-weight:100;
+ 
+}
+.menubar ul li a{
+    color: #083791;
+}
+
+.travel h1{
+    color: #083791;
+    font-weight: 700;
+    margin-top: 6px;
+    letter-spacing: 2px;
+    font-size:30px;
+   
+}
+.active{
+    color:#89379a !important;
+}
+.menubar ul li a:hover{
+    color:#89379a;
+}
+
+
+/*NAVBAR END*/
+
+/*SLIDER  START*/
+
+
+.slider{
+    background-image:url(mens-eyeglasses-banner.jpg);
+    background-size: cover;
+    height:auto;
+    width: 100%;
+    /*background-attachment: fixed;*/
+    background-repeat:no-repeat;
+    position:relative;
+    background-position:center;
+    padding-bottom:50px;
+
+}
+
+.slide-color{
+     background-color:black;
+    opacity:0.5;
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+   
+}
+.content{
+    text-align:start;
+    margin:auto;
+    vertical-align:middle;
+    padding-top:15%;   
+}
+.content h1{
+    font-weight:600;
+    color:white;
+    font-size:42px;
+}
+.content h1 span{
+    font-weight: 600;
+    color: #cb1def;
+    display: block;
+    font-size:42px;
+     margin:15px auto;
+}
+    .content p {
+        letter-spacing: 5px;
+        font-size: 19px;
+        font-weight: 300;
+        color: #fff;
+        margin: 21px auto;
+    }
+.content span{
+    padding:10px 20px;
+    background-color:#ff6a00;
+    color:white;
+}
+
+/*ABOUT START*/
+.about-back{
+    padding-bottom:50px;
+}
+.about-text{
+    padding: 40px 0px;
+    color: #083791;
+}
+.about-text h4{
+    font-size: 14px;
+    font-weight: 100;
+    padding-top:16px;
+ 
+
+}
+.about-text h1{
+    font-size: 28px;
+    padding-top: 15px;
+}
+.about-text p{
+    color:#6b6767;
+    line-height: 1.488;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding-top: 23px;
+    padding-bottom:20px;
+}
+.about-text span{
+    padding:8px 14px;
+    background-color:#ff6a00;
+    color:white;
+    font-size:15px;
+   
+}
+.about-content{
+    margin-top:45px;
+}
+.about-text i{
+   
+    font-weight:100;
+}
+.about-image img{
+    display:block;
+    width:100%;
+}
+.text{
+    padding: 2px 11px;
+}
+.text h3{
+    color:#083791;
+    padding:10px 0px;
+    font-size:20px;
+}
+.text p{
+    color:#6b6767;
+    padding:0px 0px 10px 0px;
+    font-size:14px;
+}
+.text span{
+    color:#083791;
+    letter-spacing:1px;
+}
+.about-content{
+  box-shadow: 1px 2px 7px -1px #8f8f8c;
+}
+/*ABOUT END*/
+
+/*content start*/
+
+.content-back {
+    background-image: url(doctors-m.jpg);
+    background-size: cover;
+    /*height:450px;*/
+    background-position:top;
+    width: 100%;
+    background-attachment: fixed;
+  
+}
+.content-color{
+    background: rgb(3 38 106 / 73%);
+    padding-bottom: 80px;
+    width: 100%;
+    /*height:450px;*/
+}
+.department h1{
+    color:white;
+    font-size:22px;
+
+}
+.department {
+    margin-top: 50px;
+    padding: 30px 20px;
+    background-color: #083791;
+    /* width: 23%; */
+    border-radius: 13px;
+    /* position: absolute; */
+    top: -94px;
+    left: 0px;
+    right: 0px;
+    width: fit-content;
+    margin-top: -44px;
+}
+.department ul li{
+    color:white;
+    line-height:1.754;
+}
+.department span{
+    color:#ff6a00;
+}
+
+.info{
+    float:right;
+}
+.info-text{
+    float:right;
+    padding-top:60px;
+}
+.info-text p{
+    color: white;
+    font-weight: 700;
+}
+.info-text h3 {
+    font-size: 27px;
+    width: 77%;
+    color: white;
+    line-height: 1.44;
+    padding: 20px 0px;
+}
+.info-text span{
+    background-color:#ff6a00;
+    padding:8px 17px;
+    color:white;
+    border-radius:9px;
+    font-size:12px;
+}
+.mission{
+    position:absolute;
+    top: 120%;
+}
+
+.mission span{
+    padding:5px 10px;
+    background-color:white;
+    color:white;
+    border-radius:5px;
+}
+/*content end*/
+
+/*service start*/
+
+.content-box{
+    margin-top:50px;
+    background-color:white;
+   box-shadow: 1px 2px 7px -1px #8f8f8c;
+     padding:30px;
+}
+.content-box i{
+    color:#083791;
+    padding-right: 6px;
+}
+.content-box span{
+    color:#083791;
+  
+}
+.content-box p{
+    font-size:13px;
+    padding-top:9px;
+    line-height:1.222;
+}
+/*service end*/
+
+/*teams start*/
+
+.team{
+    background-color:#083791;
+    
+    color:white;
+    text-align:center;
+    padding-top:30px;
+}
+.team h1{
+    font-size:30px;
+    padding:10px 0px;
+}
+.block{
+    margin-top:20px;
+}
+.image img{
+    height:270px;
+    display:block;
+    width:100%;
+    border-radius:10px;
+    margin-bottom:-100px;
+    padding-bottom:5px;
+}
+.image{
+    position:relative;
+}
+.plus{
+    position:absolute;
+    color:white;
+    top: 27%;
+    left:0%;
+ 
+    display:none;
+}
+.plus h3{
+    padding:5px 0px;
+}
+.plus p{
+    padding-bottom:5px;
+    font-size:12px;
+}
+.plus span{
+    padding-top:5px;
+    line-height:2;
+}
+.plus i {
+    /* height: 60px; */
+    /* width: 60px; */
+  
+    opacity:0;
+    color: white;
+    padding: 7px 6px;
+
+  
+}
+.plus i:hover{
+    background-color:#ff6a00;
+}
+.image:hover .plus i{
+  background-color:#083791;
+    opacity:1;
+}
+.image:hover .plus{
+   display:block;
+}
+.image:hover .overlay{
+    background-color:rgba(56, 122, 248, 0.51);
+    position: absolute;
+    top: 0px;
+    bottom: 5px;
+    right: 0;
+    left: 0px;
+    border-radius:10px;
+}
+
+
+/*team end*/
+
+.agent{
+    padding-top:150px;
+  
+}
+.spin{
+    text-align:center;
+    padding-bottom:10px;
+}
+.spin span{
+  padding: 7px 10px;
+    background-color: #ff6a00;
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+
+    
+}
+.spin i{
+    padding-right:5px;
+}

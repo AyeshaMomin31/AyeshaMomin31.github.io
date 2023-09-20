@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>          
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <!--<link href="StyleSheet.css" rel="stylesheet" />-->
+    <style type="text/css">
+        .sidebar {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #000000d6;
+            overflow: hidden;
+            padding-top: 60px;
+            transition: 0.7s;
+        }
+
+            .sidebar a {
+                padding: 8px 8px 8px 30px;
+                text-decoration: none;
+                font-size: 30px;
+                color: wheat;
+                display: block;
+                transition: 0.5s;
+            }
+
+                .sidebar a:hover {
+                    color: orange;
+                }
+
+
+
+            .sidebar .closebtn {
+                position: absolute;
+                top: 0;
+                right: 25px;
+                font-size: 36px;
+                margin-left: 50px;
+            }
+
+
+        @media screen and (max-height: 450px) {
+            .sidebar {
+                padding-top: 10px;
+            }
+
+                .sidebar a {
+                    font-size: 15px;
+                }
+        }
+    </style>
+</head>
+<body>
+    <div id="mysidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closemenu()">&times;</a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Gallery</a>
+        <a href="#">Contact</a>
+    </div>
+    <h1>Sidebar Menu Example</h1>
+    <span style="font-size: 30px; cursor: pointer" onclick="openmenu()">&#9776; Open</span>
+
+    <script type="text/javascript">
+
+        function openmenu() {
+            document.getElementById("mysidebar").style.width = "300px";
+        }
+
+        function closemenu() {
+            document.getElementById("mysidebar").style.width = "0px";
+        }
+
+
+    </script>
+
+
+</body>
+</html>

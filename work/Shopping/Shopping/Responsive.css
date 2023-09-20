@@ -1,0 +1,230 @@
+﻿@media only screen and (max-width: 1000px) {
+    .text h3 {
+        font-size: 21px;
+        text-align: center;
+    }
+
+    .text h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .back h1 {
+        font-size: 60px;
+        text-align: center;
+        padding-right: 70px;
+    }
+
+   .shopping{
+       text-align:center;
+   }
+}
+@media only screen and (max-width:980px ){
+     .menu {
+        width: 100%;
+       
+        
+    }
+
+    .lbl {
+        display: block;
+    }
+
+    .menu ul {
+        display: none;
+        width: 100%;
+       
+    }
+
+    #chk1:checked + .menu ul {
+        display: block;
+        width: 100%;
+        /*right: 70px*/
+    }
+
+    .menu li {
+        width: 100%;
+        display: block;
+        float: none;
+    }
+
+    .menu ul li a {
+        color:white;
+        text-align: center;
+       display:block;
+    }
+    .menu ul li i{
+        margin-bottom:5px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .text-about h1 {
+        font-size: 25px;
+    }
+    .text-about h3 {
+        font-size: 21px;
+    }
+    .text-about h2 {   
+    font-size: 22px;
+}
+    .text-about {
+    position: absolute;
+    top: 14%;
+    left: 4%;
+}
+    .img-text h2 {
+    font-size: 14px;
+}
+    .img-text h1 {
+    font-size: 13px;
+}
+    .image-text1 span {
+    font-size: 19px;
+}
+    .image-text1 h1 {
+    font-size: 24px;
+}
+    .image-text1 {
+    position: absolute;
+    top: 22%;
+    right: 2%;
+    color:#ffffff;
+}
+    .image-j {
+    position: absolute;
+    top: 53%;
+    left: 53%;
+    color: #2e2c2a;
+}
+    .image-j h1 {
+    border-bottom: 1px solid #978e7f;
+    font-size: 14px;
+}
+    .image-j h2 {
+    float: left;
+    /* margin-top: 12px; */
+    /* margin-right: -36px; */
+    font-size: 13px;
+}
+    .shops {
+    display: inline-block;
+    /* padding-top: 15px; */
+    cursor: pointer;
+}
+    .shops span {
+    padding: 5px 7px;
+    float: left;
+    background-color: #3f2406;
+    margin-top: -15px;
+}
+    .abt-mt {
+   padding:0px;
+}
+    .border-about {
+    margin-bottom: 30px;
+}
+    .brands ul li {
+    float: left;
+    text-align: center;
+    padding: 7px 16px;
+}
+    .images img {
+    padding-bottom: 10px;
+}
+
+
+    .test-p {
+    background-color: #f9f9f9;
+    margin-top: 28px;
+    padding: 14px 7px;
+    font-size: 12px;
+}
+    .angle {
+    left: 81px;
+    /* top: 113px; */
+    width: 0;
+    height: 0;
+    border-top: 23px solid #F9f9f9;
+    border-left: 23px solid transparent;
+    position: absolute;
+    bottom: 49px;
+}
+}
+
+@media only screen and (max-width: 735px)  {
+       .brands ul li {
+    float: left;
+    text-align: center;
+    padding: 7px 9px;
+}
+       span.hermen {
+    font-weight: 700;
+    color: #7f7a7a4d;
+    font-size: 14px;
+}
+    span.Dior {
+        font-weight: 600;
+        font-size: 17px;
+    }
+    span.fendi {
+    font-weight: 600;
+    color: #c1b5b5;
+    font-size: 13px;
+}
+    .brands ul li a {
+    font-weight: 700;
+    color: #DAD9D9;
+    font-size: 16px;
+    padding-top: 5px;
+}
+    span.gucci {
+    font-weight: 600;
+    color: #413e3e6e;
+    font-size: 13px;
+}
+    .brands ul li {
+    float: left;
+    text-align: center;
+    padding: 7px 5px;
+}
+
+}
+
+@media only screen and (max-width: 680px) {
+    .images img {
+    padding-bottom:0px;
+}
+    .layout ul li {
+    float: left;
+    margin-left: 10px;
+    padding: 3px 8px;
+    background-color: transparent;
+    border: 1px solid #aaa2a2;
+    font-size: 13px;
+    color: #413e3e;
+    cursor: pointer;
+}
+}
+
+@media only screen and (max-width: 768px)  {
+
+    .test-right img {
+    padding-bottom: 33px;
+    padding-top: 29px;
+    width: 100%;
+    display: block;
+}
+
+    .angle {
+    left: 167px;
+    /* top: 113px; */
+    width: 0;
+    height: 0;
+    border-top: 23px solid #F9f9f9;
+    border-left: 23px solid transparent;
+    position: absolute;
+    bottom: 145px;
+}
+}
+
+
